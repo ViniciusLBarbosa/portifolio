@@ -28,7 +28,7 @@ export const translations = {
     contact: {
       title: "Contact",
       subtitle: "Let's Talk!",
-      description: "I'm always open to new opportunities and collaborations. Get in touch with me through the form or social media.",
+      description: "I'm always open to new opportunities. Get in touch with me through the form or social media.",
       name: "Name",
       email: "Email",
       message: "Message",
@@ -67,7 +67,7 @@ export const translations = {
     contact: {
       title: "Contato",
       subtitle: "Vamos conversar!",
-      description: "Estou sempre aberto a novas oportunidades e parcerias. Entre em contato comigo através do formulário ou das redes sociais.",
+      description: "Estou sempre aberto a novas oportunidades. Entre em contato comigo através do formulário ou das redes sociais.",
       name: "Nome",
       email: "Email",
       message: "Mensagem",

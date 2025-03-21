@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { useLanguage } from '@/i18n/LanguageContext'
 import emailjs from '@emailjs/browser'
 
+// Initialize EmailJS with environment variables
 export default function Contact() {
   const { t } = useLanguage()
   const [formData, setFormData] = useState({

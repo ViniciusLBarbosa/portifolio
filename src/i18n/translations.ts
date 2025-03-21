@@ -12,8 +12,8 @@ export const translations = {
       description1: "I am a passionate programming student with experience in Java, Go, and Python, seeking to start my career as a backend developer. Currently, I am improving my skills through courses on Alura, with a focus on enhancing my abilities as a backend developer.",
       description2: "I am constantly seeking to learn new technologies and enhance my developer skills.",
       skills: "Skills",
-      frontend: "Frontend",
-      backend: "Backend"
+      frontend: "FrontEnd",
+      backend: "BackEnd"
     },
     projects: {
       title: "My Projects",
@@ -51,8 +51,8 @@ export const translations = {
       description1: "Sou um estudante de programação apaixonado, com experiência em Java, Go e Python, buscando iniciar minha carreira como desenvolvedor backend. Atualmente, aprimoro minhas habilidades através de cursos na Alura, com foco em aprimorar minhas habilidades como desenvolvedor backend.",
       description2: "Estou sempre buscando aprender novas tecnologias e melhorar minhas habilidades como desenvolvedor.",
       skills: "Habilidades",
-      frontend: "Frontend",
-      backend: "Backend"
+      frontend: "FrontEnd",
+      backend: "BackEnd"
     },
     projects: {
       title: "Meus Projetos",

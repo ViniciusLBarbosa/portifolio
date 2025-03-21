@@ -17,13 +17,16 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark !bg-gray-900">
-      <body className={`${inter.className} !bg-gray-900 !text-gray-100`}>
+    <html lang="en" className="dark [color-scheme:dark] !bg-gray-900">
+      <head>
+        <meta name="color-scheme" content="dark" />
+      </head>
+      <body className={`${inter.className} !bg-gray-900 !text-gray-100 dark`}>
         <LanguageProvider>
           <div className="fixed top-4 right-4 z-50">
             <LanguageSwitch />
           </div>
-          <main className="min-h-screen">
+          <main className="min-h-screen !bg-gray-900">
             {children}
           </main>
         </LanguageProvider>

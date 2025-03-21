@@ -7,8 +7,8 @@ import LanguageSwitch from "@/components/LanguageSwitch";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
-  description: "Professional portfolio showcasing my projects, certificates, and experience",
+  title: "Vinícius Lima | Portfolio",
+  description: "Backend Developer portfolio showcasing my projects, certificates, and experience",
 };
 
 export default function RootLayout({

@@ -16,22 +16,47 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
-    const savedTheme = localStorage.getItem('theme') as Theme || 'dark'
-    setTheme(savedTheme)
-    document.documentElement.classList.toggle('dark', savedTheme === 'dark')
+    // Garante que o código só rode no cliente
+    if (typeof window !== 'undefined') {
+      setMounted(true)
+      // Recupera o tema salvo ou usa dark como padrão
+      const savedTheme = (localStorage.getItem('theme') as Theme) || 'dark'
+      setTheme(savedTheme)
+      
+      // Aplica o tema inicial
+      if (savedTheme === 'dark') {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    }
   }, [])
+
+  // Efeito para atualizar as classes quando o tema mudar
+  useEffect(() => {
+    if (mounted) {
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark')
+      } else {
+        document.documentElement.classList.remove('dark')
+      }
+    }
+  }, [theme, mounted])
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
     setTheme(newTheme)
     localStorage.setItem('theme', newTheme)
-    document.documentElement.classList.toggle('dark')
+  }
+
+  // Renderiza os children apenas quando o componente estiver montado
+  if (!mounted) {
+    return null
   }
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      {mounted ? children : null}
+      {children}
     </ThemeContext.Provider>
   )
 }

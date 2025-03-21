@@ -17,8 +17,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.className} bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100`}>
+    <html lang="en" className="dark !bg-gray-900">
+      <body className={`${inter.className} !bg-gray-900 !text-gray-100`}>
         <LanguageProvider>
           <div className="fixed top-4 right-4 z-50">
             <LanguageSwitch />

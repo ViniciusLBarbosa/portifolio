@@ -13,6 +13,13 @@ type Certificate = {
 
 const certificates: Certificate[] = [
   {
+    title: 'Java: working with lists and collections of data',
+    institution: 'Alura',
+    date: 'March 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/java-listas-colecoes-dados/certificate?lang=en'
+  },
+  {
     title: 'Java: applying Object Orientation',
     institution: 'Alura',
     date: 'March 2025',

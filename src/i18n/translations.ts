@@ -2,7 +2,7 @@ export const translations = {
   en: {
     hero: {
       greeting: "Hi, I'm",
-      role: "BackEnd Developer",
+      role: "FullStack Developer",
       contact: "Contact Me",
       viewProjects: "View Projects"
     },
@@ -41,7 +41,7 @@ export const translations = {
   pt: {
     hero: {
       greeting: "Olá, eu sou",
-      role: "Desenvolvedor BackEnd",
+      role: "Desenvolvedor FullStack",
       contact: "Entre em contato",
       viewProjects: "Ver projetos"
     },

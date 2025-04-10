@@ -13,6 +13,20 @@ type Certificate = {
 
 const certificates: Certificate[] = [
   {
+    title: 'Learn Java with Object Oriented Programming',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/degree-java-568827/certificate?lang=en'
+  },
+  {
+    title: 'Java: consuming API, writing files and handling errors',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/java-consumindo-api-gravando-arquivos-lidando-erros/certificate?lang=en'
+  },
+  {
     title: 'Java: working with lists and collections of data',
     institution: 'Alura',
     date: 'March 2025',
@@ -53,6 +67,13 @@ const certificates: Certificate[] = [
     date: 'February 2025',
     description: '',
     link: 'https://cursos.alura.com.br/user/vinilimab/course/golang/certificate?lang=en'
+  },
+  {
+    title: 'Learn to program in Python with Object Orientation',
+    institution: 'Alura',
+    date: 'February 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/degree-linguagem-python-698571/certificate?lang=en'
   },
   {
     title: 'Python: advancing Object Orientation and consuming API',

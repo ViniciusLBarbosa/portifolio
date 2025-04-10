@@ -17,7 +17,10 @@ export const translations = {
     },
     projects: {
       title: "My Projects",
-      viewProject: "View Project"
+      viewProject: "View Project",
+      showMore: "Show More",
+      showLess: "Show Less",
+      github: "GitHub"
     },
     certificates: {
       title: "Certificates",
@@ -56,7 +59,10 @@ export const translations = {
     },
     projects: {
       title: "Meus Projetos",
-      viewProject: "Ver projeto"
+      viewProject: "Ver projeto",
+      showMore: "Mostrar Mais",
+      showLess: "Mostrar Menos",
+      github: "GitHub"
     },
     certificates: {
       title: "Certificados",

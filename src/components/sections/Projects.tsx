@@ -15,6 +15,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: 'FFXIV Store',
+    description: 'This is a complete sales platform for Final Fantasy XIV services, consisting of a modern React website and a Discord bot.',
+    image: '/imagemProjetos.png',
+    technologies: ['React', 'Python' ],
+    link: 'https://site-vendas-ffxiv.vercel.app/',
+    github: 'https://github.com/ViniciusLBarbosa/ffxivstore/'
+  },
+  {
     title: 'FF Logs Discord Bot',
     description: 'Discord bot that fetches player data from FF Logs and displays it in embeds in a specific Discord channel.',
     image: '/imagemProjetos.png',
@@ -42,7 +50,7 @@ const projects: Project[] = [
     title: 'Website Monitor',
     description: 'Website monitor developed in Golang. Checks if websites are online.',
     image: '/imagemProjetos.png',
-    technologies: ['GoLang'],
+    technologies: ['Go'],
     link: 'https://github.com/ViniciusLBarbosa/monitorador-sites',
     github: 'https://github.com/ViniciusLBarbosa/monitorador-sites'
   },

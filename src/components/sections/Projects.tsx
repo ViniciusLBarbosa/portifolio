@@ -15,6 +15,14 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: 'FFXIV Complete Discord Bot',
+    description: 'A Discord bot for user registration and community engagement.',
+    image: '/imagemProjetos.png',
+    technologies: ['Python' ],
+    link: 'https://github.com/n0way02/ffxiv_discord_bot',
+    github: 'https://github.com/n0way02/ffxiv_discord_bot'
+  },
+  {
     title: 'FFXIV Store',
     description: 'This is a complete sales platform for Final Fantasy XIV services, consisting of a modern React website and a Discord bot.',
     image: '/imagemProjetos.png',

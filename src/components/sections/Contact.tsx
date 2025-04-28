@@ -122,7 +122,7 @@ export default function Contact() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/ViniciusLBarbosa"
+                href="https://github.com/n0way02"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400"

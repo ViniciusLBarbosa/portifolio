@@ -20,39 +20,39 @@ const projects: Project[] = [
     image: '/imagemProjetos.png',
     technologies: ['React', 'Python' ],
     link: 'https://site-vendas-ffxiv.vercel.app/',
-    github: 'https://github.com/ViniciusLBarbosa/ffxivstore/'
+    github: 'https://github.com/n0way02/ffxivstore/'
   },
   {
     title: 'FF Logs Discord Bot',
     description: 'Discord bot that fetches player data from FF Logs and displays it in embeds in a specific Discord channel.',
     image: '/imagemProjetos.png',
     technologies: ['Go'],
-    link: 'https://github.com/ViniciusLBarbosa/fflogs-bot',
-    github: 'https://github.com/ViniciusLBarbosa/fflogs-bot'
+    link: 'https://github.com/n0way02/fflogs-bot',
+    github: 'https://github.com/n0way02/fflogs-bot'
   },
   {
     title: 'Sabor Express',
     description: 'Simple python project that simulates a restaurant app, where you can register, list, and activate restaurants.',
     image: '/imagemProjetos.png',
     technologies: ['Python'],
-    link: 'https://github.com/ViniciusLBarbosa/sabor-express',
-    github: 'https://github.com/ViniciusLBarbosa/sabor-express'
+    link: 'https://github.com/n0way02/sabor-express',
+    github: 'https://github.com/n0way02/sabor-express'
   },
   {
     title: 'FFXIV Discord BOT',
     description: 'Discord bot that registers users, using Lodestone as a verification and registration method.',
     image: '/imagemProjetos.png',
     technologies: ['Python'],
-    link: 'https://github.com/ViniciusLBarbosa/bot_registro_FFXIV',
-    github: 'https://github.com/ViniciusLBarbosa/bot_registro_FFXIV'
+    link: 'https://github.com/n0way02/bot_registro_FFXIV',
+    github: 'https://github.com/n0way02/bot_registro_FFXIV'
   },
   {
     title: 'Website Monitor',
     description: 'Website monitor developed in Golang. Checks if websites are online.',
     image: '/imagemProjetos.png',
     technologies: ['Go'],
-    link: 'https://github.com/ViniciusLBarbosa/monitorador-sites',
-    github: 'https://github.com/ViniciusLBarbosa/monitorador-sites'
+    link: 'https://github.com/n0way02/monitorador-sites',
+    github: 'https://github.com/n0way02/monitorador-sites'
   },
 ]
 

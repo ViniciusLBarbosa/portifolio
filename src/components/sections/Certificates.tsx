@@ -12,6 +12,63 @@ type Certificate = {
 }
 
 const certificates: Certificate[] = [
+
+  {
+    title: 'Performing queries with SQL: Joins, Views and transactions',
+    institution: 'Alura',
+    date: 'May 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/realizando-consultas-sql-joins-views-transacoes/certificate?lang=en'
+  },
+  {
+    title: 'SQLite Online: running SQL queries',
+    institution: 'Alura',
+    date: 'May 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/sqlite-online-executando-consultas-sql/certificate?lang=en'
+  },
+  {
+    title: 'SQLite online: getting to know SQL statements',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/sqlite-online-conhecendo-instrucoes-sql/certificate?lang=en'
+  },
+  {
+    title: 'Data Modeling',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/degree-modelagem-dados-800115/certificate?lang=en'
+  },
+  {
+    title: 'Data modeling: building the physical model',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/modelagem-dados-construindo-modelo-fisico/certificate?lang=en'
+  },
+  {
+    title: 'Data Modeling: applying normalization',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/modelagem-dados-aplicando-normalizacao/certificate?lang=en'
+  },
+  {
+    title: 'Data Modeling: developing the logical model',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/modelagem-dados-desenvolvendo-modelo-logico/certificate?lang=en'
+  },
+  {
+    title: 'Data modeling: identifying entities, attributes, relationships',
+    institution: 'Alura',
+    date: 'April 2025',
+    description: '',
+    link: 'https://cursos.alura.com.br/user/vinilimab/course/modelagem-dados-entidades-atributos-relacionamentos/certificate?lang=en'
+  },
   {
     title: 'Learn Java with Object Oriented Programming',
     institution: 'Alura',

@@ -27,7 +27,7 @@ const projects: Project[] = [
     description: 'This is a complete sales platform for Final Fantasy XIV services, consisting of a modern React website and a Discord bot.',
     image: '/imagemProjetos.png',
     technologies: ['React', 'Python' ],
-    link: 'https://site-vendas-ffxiv.vercel.app/',
+    link: 'https://www.ffxivstore.store/',
     github: 'https://github.com/n0way02/ffxivstore/'
   },
   {
